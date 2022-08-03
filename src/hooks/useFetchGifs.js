@@ -10,7 +10,6 @@ export const useFetchGifs = (category) => {
     setIsLoading(false);
   };
   useEffect(() => {
-    console.log("hola");
     getImages();
   }, []);
   return {
